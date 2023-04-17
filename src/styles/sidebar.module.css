@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgb(43, 45, 66);
+    /* padding: 2.5rem; */
+    color: rgb(237, 242, 244);
+}
+
+.navHeader {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0.5rem;
+    color: rgb(217, 4, 41);
+    width: 100%;
+    text-align: center;
+}
+
+.navList {
+    /* align-self: center; */
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+}
+
+.linkItem {
+    font-size: 1rem;
+    font-weight: 600;
+    list-style: none;
+    margin: 0.25rem 0;
+    border-bottom: 1px solid rgb(141, 153, 174);
+}
+
+.navLink {
+    color: rgb(237, 242, 244);
+}
+
+.navLink:hover {
+    color: rgb(217, 4, 41);
+}
